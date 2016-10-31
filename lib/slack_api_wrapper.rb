@@ -22,7 +22,20 @@ class Slack_Api_Wrapper
     my_channels
   end
 
-    def sendmsg(channel, message)
+    def self.send_message(channel, message, token = nil)
+      url = BASE_URL + "chat.postMessage?token=#{TOKEN}"
+
+      response = HTTParty.post(url,
+      body: {
+        "text" => "#{message}",
+        "channel" => "#{channel}",
+        "username" => "Chad_Inc",
+        "icon_emoji" => ":dog:",
+        "as_user" => "false"
+        },
+        :headers => { 'Content-Type' => 'application/x-www-form-urlencoded' })
+
+
     end
 
 
