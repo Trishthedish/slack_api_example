@@ -11,9 +11,11 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# ignore secret stuff
+.env
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
 .env
-
