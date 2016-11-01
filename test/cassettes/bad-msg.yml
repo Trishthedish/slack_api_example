@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '30'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:58:55 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 663c084e-4fea-4537-a870-e2d5ec05209e
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 2240dd4f03e78c49402a5a5f630ca80c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - tyI7ehgAKfmwnNkZHkRwiSRtptUnAiVY-Z8CQB3ks6atj6_8y-1aEg==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"no_text"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:58:56 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '30'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:59:39 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 415c3efe-5d0f-436a-bd7f-c181ffbe91b3
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4fe9b40e43a66bae996dd68268f01143.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _QyFZzlnOZRmciQzVeX0zbYm6aP7mbfcZMqA8Oq5GomooQRYW3JzTA==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"no_text"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:59:39 GMT
+recorded_with: VCR 3.0.3

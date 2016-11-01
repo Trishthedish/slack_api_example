@@ -28,7 +28,11 @@ class SlackApiWrapper
                   "text" => "#{msg}",
                   "channel" => "#{channel}",
                   "username" => "CheezItBot",
-                  "icon_url" => "https://avatars.slack-edge.com/2016-06-01/47243492547_e3bd80a93a62bd63b8e6_72.png",
+                  "icon_url" =>
+ "http://vignette1.wikia.nocookie.net/harrypotter/images/b/b3/NewtCrop2.png",
+
+
+
                   "as_user" => "false"
                 },
              :headers => { 'Content-Type' => 'application/x-www-form-urlencoded' })

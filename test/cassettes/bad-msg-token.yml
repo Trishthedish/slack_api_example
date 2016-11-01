@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=12345
+    body:
+      encoding: UTF-8
+      string: text=failed%20message&channel=%0A%20%20%20%20%20%20test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '35'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:59:38 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 8454a13a-0f46-477b-8504-d3c5cbcd149e
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 334110f29a17ea138a2af443c18e1494.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 15ptXS_uB1EZSHXhfYfTBP8oZgazmEGbzs5liIUBxemCGBHk4FoN7A==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"invalid_auth"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:59:38 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=
+    body:
+      encoding: UTF-8
+      string: text=failed%20message&channel=%0A%20%20%20%20%20%20test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '33'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 18:02:00 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - b3a16838-8d4d-45f2-a78a-2241b4345858
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 13035fb5d03e4c84dd23d62fc70657d1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - MAeH1nDgqQ36xkhpkm2xwiS0hh5sV0BznFcnv6_8e0BG-3PE_21KGQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"not_authed"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 18:02:00 GMT
+recorded_with: VCR 3.0.3

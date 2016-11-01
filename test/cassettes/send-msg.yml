@@ -1,0 +1,499 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=this%20is%20a%20test%20case%20yada%20yaday&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '338'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:26:32 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - fd441db3-ad09-4321-95dc-133a004e7a60
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c743f1ce1ce65e454843328ae4e050a2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - e8CV5vjHNpZR3j_1ZRMXlHbK2FpzMEdt73s4x2dJx512qeC6G2Wr1Q==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021192.000667","message":{"text":"this
+        is a test case yada yaday","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478021192.000667"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:26:32 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=I%20didnt%20realize%20our%20tests%20were%20actually%20SENDING%20test%20messages.%20WTF%21%20%3D%20magic&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '383'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:27:38 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - e1819189-a73e-4970-9759-1520fa9b2c6c
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 464d92e6218b500984d91d96820ea362.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ZvCBvMgsz7t2XlkGRWtaRsf5DEaNOTMtDogs3MfVpNVQDsi3G9vI6Q==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021258.000672","message":{"text":"I
+        didnt realize our tests were actually SENDING test messages. WTF! = magic","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478021258.000672"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:27:38 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=They%20say%2C%20I%27m%20not%20a%20bot%2C%20don%27t%20hate%20the%20bot&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '351'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:43:20 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 476b8b74-2afd-4653-9695-4161e72f37e5
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 670028963eba080ab8448ca6724700e0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 09VD58AmhTCYiy-lDAPuAkxMD98U9ibrjjLejcMmkX8pXVHfBSWPyQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478022200.000684","message":{"text":"They
+        say, I''m not a bot, don''t hate the bot","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478022200.000684"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:43:21 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=They%20say%2C%20I%27m%20not%20a%20bot%2C%20don%27t%20hate%20the%20bot&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F04%2FHarry-Potter-PNG-File.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '234'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:48:07 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - c46650ac-76ea-41ea-b677-d72054857243
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 90ec1457c46fc15b8daff1254c3211b7.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 5Cm1lbFYbHA18QeeHtjfM1MSEC4a-9OrYoFMxXQwFJ5AemwnwHdufg==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478022489.000688","message":{"text":"They
+        say, I''m not a bot, don''t hate the bot","username":"CheezItBot","bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478022489.000688"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:48:09 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=They%20say%2C%20I%27m%20not%20a%20bot%2C%20don%27t%20hate%20the%20bot&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette3.wikia.nocookie.net%2Fharrypotter%2Fimages%2F6%2F6c%2FUnidentifiedSleepingHeadmasterWithBook-small.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '351'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:51:46 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - d527a10e-f17d-4097-bd50-a6571436fb3e
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 199619676dc9b85254f229970a0f9a85.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - OsAK5f2eBs_CPcyrHMtXiYD-ChCWE3eVZ6fyP4ZB8YHPHo7j5_kDMg==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478022707.000690","message":{"text":"They
+        say, I''m not a bot, don''t hate the bot","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-11-01\/99099547330_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478022707.000690"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:51:47 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=They%20say%2C%20I%27m%20not%20a%20bot%2C%20don%27t%20hate%20the%20bot&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '351'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:52:50 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 95b99d24-ce90-4090-8227-5057ad996568
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c743f1ce1ce65e454843328ae4e050a2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - jzS0oHCh7I1EmIRAar7jgBZtBwLIgnF4yDn55DrNiBcXw2mE6zXZRA==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478022771.000691","message":{"text":"They
+        say, I''m not a bot, don''t hate the bot","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-11-01\/99100386514_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478022771.000691"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:52:51 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=Fantastic%20beasts&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '324'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 18:01:24 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 6112b71e-eed6-4dfa-b43d-62a3649855e6
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 13035fb5d03e4c84dd23d62fc70657d1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 2qnHdkrPRnXgtPEAZJbG9Ih5uxPNXAQQPqKdteOZ5fIJ9elKKpMh6A==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478023284.000693","message":{"text":"Fantastic
+        beasts","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-11-01\/99100386514_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478023284.000693"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 18:01:25 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44062278756-98466000358-6f5a08983c7afdc33916d64ccfc344bc
+    body:
+      encoding: UTF-8
+      string: text=A%20smooth%20sea%2C%20never%20made%20a%20skilled%20sailor%21&channel=test-api-parens&username=CheezItBot&icon_url=http%3A%2F%2Fvignette1.wikia.nocookie.net%2Fharrypotter%2Fimages%2Fb%2Fb3%2FNewtCrop2.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '350'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 18:03:19 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - e25064e2-1a14-4176-b667-1ea86daf1f9f
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f8a7fe4c61e96031422b26def0e2d6cf.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - N9qHgPzzljdcts2OMMhSyGWKWAuBzxnHvHF0HY8wpUtU84dLkp6Fig==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478023399.000694","message":{"text":"A
+        smooth sea, never made a skilled sailor!","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-11-01\/99100386514_48.png"},"bot_id":"B2WE78ZA6","type":"message","subtype":"bot_message","ts":"1478023399.000694"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 18:03:19 GMT
+recorded_with: VCR 3.0.3
