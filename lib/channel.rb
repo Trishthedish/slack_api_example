@@ -6,6 +6,10 @@ class Slack_Channel
     @name = name
     @id = id
 
+    if name == nil || id == nil || name == "" || id == ""
+      raise ArgumentError
+    end 
+
     @purpose = options[:purpose]
     @is_archived = options[:is_archived]
     @is_general = options[:is_archived]
